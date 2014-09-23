@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="files" version="3.0" client="site" method="upgrade">
+    <name>ra-images</name>
+    <author>Chris Vaughan</author>
+    <creationDate>2014-07-23</creationDate>
+    <copyright>Copyright (C) 2014 Ramblers-webs.org.uk</copyright>
+    <license>This extension in released under the GNU/GPL License</license>
+    <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
+    <authorUrl>www.ramblers-webs.org.uk</authorUrl>
+    <version>1.0.0</version>
+    <description>This package contains RA Images</description>
+    <updateservers>
+        <server type="extension" name="Ramblers Images" priority="1">http://updates.ramblers-webs.org.uk/raimages.xml</server>
+    </updateservers>
+    <files>
+        <file>manifest.xml</file>        
+    </files>
+    <media folder="images" destination="ra-images">
+        <file>index.html</file>
+        <folder>images</folder>
+        <folder>horizons</folder>
+        <folder>logos</folder>
+        <folder>logos/pantone0110</folder>
+        <folder>logos/pantone0159</folder>
+        <folder>logos/pantone0186</folder>
+        <folder>logos/pantone0555</folder>
+        <folder>logos/pantone0583</folder>
+        <folder>logos/pantone1815</folder>
+        <folder>logos/pantone4485</folder>
+        <folder>logos/pantone5565</folder>
+        <folder>logos/pantone7474</folder>
+        <folder>logos/standard</folder>
+        <folder>standard</folder>
+    </media>
+
+</extension>
