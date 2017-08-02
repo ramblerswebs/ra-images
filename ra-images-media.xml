@@ -14,7 +14,7 @@
     </updateservers>
     <fileset>
        <files target="images/ra-images" >
-	   <file>ra-images-media.xml</file>
+	   <file>ra-images.xml</file>
         <folder>images</folder>
         <folder>horizons</folder>
         <folder>logos</folder>
