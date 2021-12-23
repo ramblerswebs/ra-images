@@ -13,13 +13,14 @@
         <server type="extension" name="Ramblers Images" priority="1">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/raimages.xml</server>
     </updateservers>
     <fileset>
-       <files target="images/ra-images" >
-	   <file>ra-images.xml</file>
-        <folder>images</folder>
-        <folder>horizons</folder>
-        <folder>logos</folder>
-        <folder>standard</folder>
-    </files>
+        <files target="images/ra-images" >
+            <file>ra-images.xml</file>
+            <folder>2022brand</folder>
+            <folder>images</folder>
+            <folder>horizons</folder>
+            <folder>logos</folder>
+            <folder>standard</folder>
+        </files>
     </fileset>
 
 </extension>
